@@ -1,0 +1,212 @@
+.delivery {
+    width: auto;
+    height: 5%;
+    padding: 12px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: color 0.5s ease;
+    font-size: 14px;
+    background-color: #202124;
+    color: white;
+  }
+  .delivery > .text {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .delivery > .text > p {
+    margin-right: 10px;
+  }
+  .delivery > .text > .img {
+    margin-right: 5px;
+  }
+  
+  .delivery > .button {
+    width: 10%;
+    border-radius: 25px;
+    background-color: #e4002b;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  .delivery > .button > div {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+  }
+  
+  .menu {
+    width: auto;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 10%;
+  }
+  .menu > .container-menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.57142857rem;
+    line-height: 20px;
+  }
+  
+  .menu > .container-menu > p {
+    width: auto;
+    margin-right: 2%;
+    font-size: 18px;
+  }
+  
+  #nextarrow {
+    color: black;
+  }
+  
+  .container {
+    width: auto;
+    height: auto;
+    margin: 0;
+  }
+  .container > .box {
+    width: auto;
+    height: 80%;
+    padding: 0px 10%;
+  }
+  .container > p {
+    width: auto;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 10px 0px 10px 200px;
+  }
+  
+  .container > .box > .product {
+    width: 100%;
+    height: auto;
+    margin: 0px 18px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .container > .box > .product > .item-card {
+    margin: 1%;
+    padding: 1%;
+    width: 23%;
+    height: 50%;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  
+  .container > .box > .product > .item-card > img {
+    width: 99%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container > .box > .product > .item-card > .item {
+    padding: 1% 1% 2%;
+  }
+  
+  .container > .box > .product > .item-card > .item > .item-detail {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+  }
+  
+  .product > .item-card > .item > .item-detail   b {
+    height: auto;
+    font-size: 16px;
+  }
+  .container > .box > .product > .item-card > .item > .item-desc {
+    width: 99%;
+    height: 60px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px !important;
+  }
+  
+  .container > .box > .product > .item-card >.item > .bot-card {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product > .item-card > .item> .bot-card > button:hover{
+    background-color: #e4002b;
+  }
+  
+  .product > .item-card > .item> .bot-card > button {
+    width: 90%;
+    height: 100%;
+    padding: 12px 0px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #ccc;
+    font-size: 15px;
+    color: white;
+    border-color: #ccc;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .container > .box > .product > .item-card > .item> .bot-card > button > b {
+    margin: 5px 0px;
+    display: flex;
+    justify-content: center;
+  
+  }
+
+  .box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .el-wrapper{
+    margin: 20px;
+    #div_delete{
+      display: flex;
+      justify-content: flex-end;
+
+    }
+  }
+
+  .box-up{
+    height: auto;
+    img{
+      width: 300px;
+      height: 250px;
+    }
+    .info-inner{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 10px 0;
+    }
+  }
+
+  

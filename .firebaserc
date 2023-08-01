@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "webkfc-8641f": {
+      "hosting": {
+        "KFC_ng": [
+          "webkfc-8641f"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "webkfc-8641f"
+  }
+}

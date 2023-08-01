@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "KFC_ng",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}
