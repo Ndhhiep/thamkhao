@@ -76,5 +76,9 @@
       </div>
     </dialog>
     <img src="./../../assets/img/menu.PNG" alt="" />
+    <img [src]="user?.avatarUrl??''" alt="" />
+    <h1>{{user?.email??''}}</h1>
+    <button id="logOut" (click)="adminService.logOut()">Log Out</button>
+    <button (click)="showIf()">Show</button> 
   </div>
 </div>

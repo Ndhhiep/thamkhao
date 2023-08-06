@@ -3,6 +3,7 @@ import {
   Component,
   ElementRef,
   EventEmitter,
+  Input,
   OnDestroy,
   OnInit,
   Output,
@@ -14,6 +15,8 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Item } from 'src/app/models/item.model';
 import "firebase/firestore";
 import { ServiceService } from './service.service';
+import { AdminService } from '../services/admin.service';
+import { User } from 'src/app/models/user.model';
 
 
 @Component({
@@ -24,7 +27,13 @@ import { ServiceService } from './service.service';
 export class HeaderComponent implements OnInit{
   @Output() newItemEvent = new EventEmitter<Item>();
 
-  constructor(private service: ServiceService) {}
+  @Input() user: User | null = {
+    id: '',
+    name: '',
+    email: '',
+    avatarUrl: 'https://icons.veryicon.com/png/o/internet--web/prejudice/user-128.png',
+  };
+  constructor(private service: ServiceService, public adminService: AdminService) {}
 
   
   
@@ -52,6 +61,10 @@ export class HeaderComponent implements OnInit{
 
   // }
   ItemForm!: FormGroup;
+
+  showIf(){
+    console.log(this.adminService.user);
+  }
 
   ngOnInit(): void {
     this.ItemForm = new FormGroup({

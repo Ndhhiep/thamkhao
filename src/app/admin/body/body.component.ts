@@ -8,7 +8,7 @@ import { ServiceService } from '../header/service.service';
   styleUrls: ['./body.component.scss'],
 })
 export class BodyComponent {
-  constructor() {}
+  constructor(private service: ServiceService) {}
 
   @Input('itemList')
   itemList!: Item[];

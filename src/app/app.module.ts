@@ -3,9 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { BodyComponent } from './body/body.component';
-import { FooterComponent } from './footer/footer.component';
+// import { HeaderComponent } from './header/header.component';
+// import { BodyComponent } from './body/body.component';
+// import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
@@ -18,7 +18,7 @@ import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideAuth,getAuth } from '@angular/fire/auth';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
-import { CounterComponent } from './counter/counter.component';
+
 import { StoreModule } from '@ngrx/store';
 import { counterReducer } from './ngrx/counter.reducer';
 
@@ -30,10 +30,10 @@ import { counterReducer } from './ngrx/counter.reducer';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    BodyComponent,
-    FooterComponent,
-    CounterComponent,
+    // HeaderComponent,
+    // BodyComponent,
+    // FooterComponent,
+
 
   ],
   imports: [

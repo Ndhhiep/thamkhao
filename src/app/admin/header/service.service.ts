@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Firestore, addDoc} from '@angular/fire/firestore';
 import { collection } from '@firebase/firestore';
-import { Item } from '../models/item.model';
+import { Item } from '../../models/item.model';
 import { BehaviorSubject } from 'rxjs/internal/BehaviorSubject';
 import { FormGroup } from '@angular/forms';
 
